@@ -116,7 +116,7 @@ Dieses Dokument richtet sich an:
 > - Sicherheit
 > - ...
 
-### 3.2 Prozess und Nutzungskontext
+### 3.2 Anforderungen der Prozesse
 
 > Hier beschreiben, ob wie der Ablauf des Prozesses und der Patientenreise ist.
 
@@ -225,7 +225,7 @@ Diese Dokumentation kann auch tabellarisch erfolgen:
 |    |             |              |      |                     |
 |    |             |              |      |                     |
 
-***Tabelle:*** Verfahren
+***Tabelle:*** Datenquellen
 
 > Hier die Datenquellen auflisten, z.B. Kliniken, Medizinprodukte, Fragebögen, Labore, Mobiltelefone usw.
 >
@@ -239,45 +239,75 @@ Diese Dokumentation kann auch tabellarisch erfolgen:
 >   - Attribute: Name, Bedeutung, Datentyp, Kodiersystem, Einheit usw.
 > - Datenlieferant (z.B. Patient) anhand relevanter Parameter wie Alter, Geschlecht, Erkrankung, Diagnosen, Begleiterkrankungen, Vitalparameter, Laborparameter
 
-#### Deskriptive Statistik
+#### Details zu den Datenquellen
 
-> Hier z.B. mit Hilfe einer deskriptiven Statistik eine Übersicht über die Datensätze geben, z.B. für die einzelnen Feature
+Beschreibung der Datenquellen
+
+Diese Dokumentation kann auch tabellarisch erfolgen:
+
+| ID | Datenquelle | Beschreibung | Technische Details | Interoperabilität | Link |
+| -- | :---------- | :----------- | :----------------- | :----------------- | ---- |
+|    |             |              |                    |                    |      |
+|    |             |              |                    |                    |      |
+|    |             |              |                    |                    |      |
+
+***Tabelle:*** Datenquellen
+
+> Hier z.B. eine Übersicht über die Datensätze geben, z.B. für die einzelnen Details
 >
-> - Lagemaße: Mittelwert, Median, ...
-> - Histogramme
-> - Anzahl fehlender Werte
-> - Korrelation der Attribute (Feature) untereinander
->
-> So sinnvoll, sollten diese Statistiken für die verschiedenen Datenquellen getrennt erstellt werden, um den Einfluss der Datenquelle auf die Datensätze bewerten zu können.
+> Soweit sinnvoll, sollten diese Informationen für die verschiedenen Datenquellen getrennt erstellt werden, um den Einfluss der Datenquelle auf die Datensätze bewerten zu können.
 
 #### Bewertung der Daten
 
-> Der Hersteller sollte kurz begründen, weshalb die Daten, die für das Training verwendet werden,
+Die Bewertung der Dokumentation kann auch tabellarisch erfolgen:
+
+| ID | Datenquelle | Beschreibung | Bewertung | Offen Punkte | Sonstiges |
+| -- | :---------- | :----------- | :-------- | :----------- | --------- |
+|    |             |              |           |              |           |
+|    |             |              |           |              |           |
+
+***Tabelle:*** Datenquellen
+
+> Hier sollte kurz begründet werden, weshalb die Daten, für den Use Case verwendet werden,
 >
-> - repräsentativ für die Patientenpopulation bzw. angestrebte Zweckbestimmung und
+> - repräsentativ für die Patientenpopulation bzw. angestrebten Zweck und
 > - quantitativ und qualitativ ausreichend / geeignet sind.
 >
-> Für diese Begründung ist die Unterstützung durch einen Statistiker hilfreich.
+> Für diese Begründung ist die Unterstützung durch einen Kliniker, Bioinformatiker und Machine Learning Engineer hilfreich.
 
-### 5.2 Datenvorverarbeitung ("Pre-Processing")
+### 5.2 Datenverarbeitung ("Processing")
 
-> Hier sollte der Hersteller beschreiben, wie die Daten vorverarbeitet werden. Zu diesen Verarbeitungsschritten zählen beispielsweise:
+Die Bewertung der Dokumentation kann auch tabellarisch erfolgen:
+
+| ID | Datenquelle | Beschreibung der Verarbeitung | Bewertung | Anmerkungen |
+| -- | :---------- | :---------------------------- | :-------- | ----------- |
+|    |             |                               |           |             |
+|    |             |                               |           |             |
+
+***Tabelle:*** Datenverarbeitung
+
+> Hier sollten wir beschreiben, wie die Daten verarbeitet werden. Zu diesen Verarbeitungsschritten zählen beispielsweise:
 >
-> - Umgang mit fehlenden Werten: Datensatz löschen, fehlenden Wert durch Mittelwert ersetzen usw.
-> - Umgang mit "Outliern": Datensatz löschen, Wert durch einen anderen Ersetzen, Wert löschen usw.
-> - Umwandlung von numerischen Werten in Kategorien
-> - Konvertierung von Einheiten
-> - Rundungen
-> - Umwandlung von (Daten-)Formaten
+> - Umgang mit fehlenden Werten: Datensatz löschen, fehlenden Wert durch Mittelwert ersetzen, "Outliern": Datensatz löschen, Wert durch einen anderen Ersetzen, Wert löschen
+> - Umwandlung von numerischen Werten in Kategorien und von (Daten-)Formaten
 > - Löschen von Elementen (z.B. Stop-Wörter beim NLP)
 > - Zusammenfassen mehrerer Datensätze (z.B. durch JOINS)
 > - Anonymisieren und Pseudonymisieren von Daten
 >
-> Hinweis: Diese Datenverarbeitung muss validiert sein (siehe oben "CSV").
+> Hinweis: Die Datenverarbeitung muss idealerweise   sein.
 
-### 5.3 Labeling
+### 5.3 Signierung der Daten
 
-> Hier sollte der Hersteller bei Verfahren des "Supervised Machine Learnings" das Labeling beschreiben:
+Die Bewertung der Dokumentation kann auch tabellarisch erfolgen:
+
+| ID | Datenquelle | Beschreibung der Signierung | Signierungsverfahren | Link | Sonstiges |
+| -- | :---------- | :-------------------------- | :------------------- | :--- | --------- |
+|    |             |                             |                      |      |           |
+|    |             |                             |                      |      |           |
+
+***Tabelle:*** Signieren
+
+> Hier sollte der Use Case bei Verfahren der Signierung detailliert beschreiben, wie es :
 >
 > - Anforderungen an die Personen, die das Labeling durchführen (Auswahlkriterien, spezifische Schulung, Prüfung)
 > - Personen, die das Labeling tatsächlich durchgeführt haben (Kompetenz, Ausbildung, Ergebnis der Prüfung)
@@ -285,100 +315,55 @@ Diese Dokumentation kann auch tabellarisch erfolgen:
 > - Überprüfung der Korrektheit des Labelings
 > - Wahl des Gold-Standards (inkl. Begründung)
 
-## 6 Algorithmus, Modell, Modellbildung und Bewertung
+## 6 Use Case Systemarchitektur und Datenmodell
 
-### 6.1 Architektur
+### 6.1 Systemarchitektur
 
-> Hier den Modelltyp (ML, hardkodiert) bzw. dessen Architektur beschreiben. Das kann auch grafisch erfolgen wie in der folgenden Abbildung gezeigt:
->
-> ![](./media/SW-TPL-07-DE_Modell-Architecture.png)
->
-> ***Abb. 2***: Beispiel für eine grafische Darstellung einer ML-Architektur
->
-> Beispiele für ML-Modelltypen sind:
->
-> - Neuronale Netzwerke, Convolutional Neural Networks
-> - Support Vector Machines
-> - Entscheidungsbäume
-> - Tree Ensembles wie Random Forrest, XGBoost
-> - Logistische Regression
->
-> Verwendete Bibliotheken und Frameworks beschreiben. Ggf. Software-Architektur und SOUP-Liste referenzieren.
 
-### 6.2 Training
+> Hier die System-Architektur beschreiben. Das kann grafisch erfolgen auf Basis eines Architekturdiagramms,.
+>
+> Beispiele für Systeme und verwendete Produkte sind:
+>
+> - Cloud-Betrieb: Openstack und Kubernetes
+> - Applikation: DiGA von Hersteller in Finnland mit Daten in der Azure Cloud
+> - ...
+>
+> Verwendete Frameworks sind zu beschreiben.
 
-> Hier den Trainingsprozess kurz beschreiben:
->
-> - Aufteilung der Daten in Trainings-, Validierungs- und Testdaten
-> - Infrastruktur, auf der das Training stattfand
-> - Falls das Training mit einem vortrainierten Modell erfolgt, sollte das ebenfalls erwähnt werden
-> - Wahl der wichtigsten Hyperparameter
->   - Lernrate
->   - Anzahl Epochen
->   - Loss-Function
->   - Optimizer
->   - bei neuronalen Netzwerken: Anzahl und Typ der Layer, Art der Verknüpfung der Layer, Anzahl der Neuronen pro Layer, Aktivierungsfunktionen
->   - Wahrscheinlichkeiten, ab denen ein Datensatz als einer Klasse zugehörig bewertet wird
-> - Getestete aber als weniger erfolgreich bewertete Ansätze (Modelltypen, Hyperparameter)
+### 6.2 Datenmodell
 
-### 6.3 Bewertung der Leistung des Modells
 
-> Beschreiben, wie das Modell verifiziert und validiert wurde. Dazu zählt eine Beschreibung, mit welchen bzw. wie vielen Daten das Modell getestet wurde.
+> Hier das Datenmodell zu beschreiben in Form eines ERD und Verteilungsdiagramms.
 >
-> Die erreichten Gütemaße auflisten (s.o. "Gütekriterien"). Bei Klassifizierungsaufgaben wäre eine Vierfeldertafel zu empfehlen. Üblich sind auch visuelle Darstellungen wie bei ROC-Kurven.
->
-> Begründungen geben, weshalb die Ergebnisse als korrekt angenommen werden können. Dazu bieten sich Ansätze an wie:
->
-> - Erklärung am Ergebnis z.B.[LIME](https://christophm.github.io/interpretable-ml-book/lime.html)
-> - Erklärung anhand von[Couterfacturals](https://christophm.github.io/interpretable-ml-book/counterfactual.html)
-> - Darstellung der Abhängigkeiten (Stärke und Richtung) der Vorhersagen von den Feature (z.B. Sharpley-Values,[ICE-Plots](https://christophm.github.io/interpretable-ml-book/ice.html),[Partial Dependency Plots PDP](https://christophm.github.io/interpretable-ml-book/pdp.html) (s.u.))
-> - Synthetisierung und/oder Visualisierung von Datensätzen, die das Modell besonders aktivieren
-> - [Surrogat-Modelle](https://christophm.github.io/interpretable-ml-book/global.html)
->
-> Aussagen über die Verlässlichkeit und Limitierung der Ergebnisse einfügen. Dazu können sich Hersteller beispielsweise bedienen an
->
-> - Datensätze<n, bei denen das Modell die Ergebnisse besonders schlecht vorhergesagt hat,
-> - der Anzahl der Datenpunkte pro Feature-Wert (kann mit PDPs kombiniert werden, wie in der folgenden Abbildung zu sehen)
->
-> ![](./media/SW-TPL-07-DE_pdp-cervical-1.png)
->
-> ***Abb. 3:*** Die [PDPs aus dem Buch von Christoph Molnar](https://christophm.github.io/interpretable-ml-book/pdp.html) zeigt auch, wieviele Datenpunkte in den Wertebereichen vorliegen
->
-> Verweis auf weitere Software-Tests einfügen.
+> - ERD
+> - Verteilungsdiagramm
+> - APIs
 
-### 6.4 Input für die Gebrauchsanweisung
 
-> Hier auflisten, was die Gebrauchsanweisung beschreiben muss. Beispiele sind:
+
+### 6.3 Datenfluss
+
+Der Datenfluss im Use Case wird auf Basis der Prozesse und Ereignisse im Use Case dargestellt:
+
+> Beschreiben, wie der Datenfluss innerhalb des Use Cases anhand der Prozesse und klinischen Fragen
+
+
+
+### 6.4 Zusammenfassende Bewertung
+
+> Hier schreiben, ob bzw. dass der Datenfluss
 >
-> - Kurze Beschreibung des Modells (auch, ob dieses kontinuierlich weiterlernt)
-> - Gütekriterien ggf. abhängig von Feature
-> - Voraussetzungen
->   - z.B. Patientenpopulation
->   - Art derDatengewinnung (z.B. Mess- und Medizingeräte)
->   - Laufzeitumgebung
-> - Sonstige Limitierungen , Kontraindikationen
-> - Warnungen
-> - Möglichkeiten, um die Korrektheit zu überprüfen und Fehler zu erkennen
-> - Informationen darüber, wie das Modell trainiert und getestet wurde
-> - Anforderungen an die Anwender (Ausbildung, Kompetenzen, spezielle Schulung)
-> - Weiterführende Literatur
-> - Lizenzrechte
-
-### 6.5 Zusammenfassende Bewertung
-
-> Hier schreiben, ob bzw. dass das Modell
->
-> - die spezifizierten Gütekriterien erreicht,
-> - geeignet ist, die Zweckbestimmung zu erfüllen,
-> - bessere Ergebnisse liefert als der Stand der Technik und andere ML-Modelle (Typen, Hyperparameter) — ggf. erwähnen, welche alternativen Modelle man ausprobiert hat.
-> - trotz möglicherweise schlechterer Interpretierbarkeit ein besseres Nutzen-Risiko-Verhältnis bietet als einfachere ML-Modelle oder klassische Algorithmen,
-> - keine Limitierungen hat, die für die spezifizierte Zweckbestimmung (z.B. Patientenpopulation) dieses Nutzen-Risiko-Verhältnis in Frage stellt.
+> - die spezifizierten Qualitätsriterien erreicht,
+> - geeignet ist, die Zwecke und Unmet need des Use Case zu erfüllen,
+> - bessere Ergebnisse liefert als der Stand der heutigen Versorgung und andere moderne Lösungsansätze — ggf. erwähnen, welche alternativen Ansätze man ausprobiert hat oder existieren
+> - ein besseres Nutzen-Risiko-Verhältnis bietet als einfachere Ansätze,
+> - eine Limitierungen hat, die für die spezifizierte Zwecke (z.B. Patientenpopulation) dieses Nutzen-Risiko-Verhältnis in Frage stellt.
 >
 > Ggf. müssen weitere Aspekte diskutiert werden, wie die IT-Sicherheit und die Vertraulichkeit von Daten.
 >
-> Ggf. klinische Bewertung/Leistungsbewertung und Risikomanagementakte referenzieren.
+> Ggf. klinische Vewertung und Risikoaspekte referenzieren.
 >
-> Ggf. auch noch offene Aspekte ansprechen, die dann in der Post-Market-Phase untersucht werden müssen.
+> Ggf. auch noch offene Aspekte ansprechen, die dann im operativen Betreib untersucht werden müssen.
 
 ## 7 Nächste Entwicklungsarbeiten und Phases
 
@@ -393,7 +378,7 @@ Diese Dokumentation kann auch tabellarisch erfolgen:
 > - Verträge aufführen
 > - ...
 
-### 7.2 Systementwicklung
+### 7.2 System- / Produktentwicklung
 
 > Hier spezifizieren
 >
