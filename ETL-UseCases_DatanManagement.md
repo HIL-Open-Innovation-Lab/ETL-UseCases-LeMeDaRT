@@ -38,7 +38,6 @@ Dieses Dokument hat das Ziel,
 
 zu dienen.
 
-
 ### 1.4 Adressaten
 
 Dieses Dokument richtet sich an:
@@ -50,10 +49,9 @@ Dieses Dokument richtet sich an:
 - Projektmanager
 - Weitere Interessierte der Use Cases
 
+## 2 Beschreibung Use Case
 
-## 2 Beschreibung Use Case 
-
-### 2.1 Zweck und Ziele 
+### 2.1 Zweck und Ziele
 
 > Folgenden Aspekte sollten adressiert werden:
 >
@@ -95,8 +93,6 @@ Dieses Dokument richtet sich an:
 
 > Hier die wichtigsten Risiken beschreiben, die sich ergeben würden, wenn die Algorithmus-/ML-Komponente nicht die spezifizierten Gütekriterien erfüllt.
 
-
-
 ## 3 Anforderungen - Daten Management
 
 ### 3.1 Kriterien der Datenqualität
@@ -123,7 +119,6 @@ Dieses Dokument richtet sich an:
 ### 3.2 Prozess und Nutzungskontext
 
 > Hier beschreiben, ob wie der Ablauf des Prozesses und der Patientenreise ist.
->
 
 ### 3.3 Anforderungen an den Nutzungskontext
 
@@ -164,7 +159,7 @@ Dieses Dokument richtet sich an:
 > |                       |         |                                          |          |
 > |                       |         |                                          |          |
 >
-> ***Tabelle 4:*** Aufgaben-Checkliste
+> ***Tabelle:*** Organisationen und Anforderungen
 
 ### 4.2 Angewendete Verfahrens- und Arbeitsanweisungen
 
@@ -182,7 +177,6 @@ Dieses Dokument richtet sich an:
 >   - Überwachung nach dem Inverkehrbringen (Post-Market Surveillance)
 >   - Produktion, Betrieb
 >
->
 > Diese Dokumentation kann auch tabellarisch erfolgen:
 >
 > | ID | Verfahren / Prozesse (eindeutige Identifikation) | Beschreibung der Anforderungen | Verantwortliche | Version |
@@ -191,8 +185,7 @@ Dieses Dokument richtet sich an:
 > |    |                                                  |                                |                 |         |
 > |    |                                                  |                                |                 |         |
 >
-> ***Tabelle 5:*** CSV
->
+> ***Tabelle:*** Verfahren
 
 ### 4.3 Bill-of-Systems: Systeme
 
@@ -216,11 +209,23 @@ Dieses Dokument richtet sich an:
 >
 > ***Tabelle:*** Systeme
 
-## 5 Trainingsdaten
+## 5 Daten und Datenfluss
 
 ### 5.1 Datenquellen
 
 #### Übersicht über die Datenquellen
+
+##### Auslistung der Bill-of-Data-Sources
+
+Diese Dokumentation kann auch tabellarisch erfolgen:
+
+| ID | Datenquelle | Organisation | Type | System / Hersteller |
+| -- | :---------- | :----------- | :--- | :------------------ |
+|    |             |              |      |                     |
+|    |             |              |      |                     |
+|    |             |              |      |                     |
+
+***Tabelle:*** Verfahren
 
 > Hier die Datenquellen auflisten, z.B. Kliniken, Medizinprodukte, Fragebögen, Labore, Mobiltelefone usw.
 >
@@ -379,7 +384,7 @@ Dieses Dokument richtet sich an:
 
 ### 7.1 Datenschutz
 
-> Ziele des Datenschutzes und der 
+> Ziele des Datenschutzes und der
 >
 > - Organisationen benennen
 > - System definieren
@@ -403,7 +408,6 @@ Dieses Dokument richtet sich an:
 > - Informationssicherheit
 > - Systemsicherheit
 > - Kommunikationssicherheit (Netzwerk)
->
 
 ## 8 Anhang
 
@@ -419,7 +423,6 @@ Die folgenden Dokumente sind für dieses Dokument relevant:
 
 ***Tabelle:*** Weitere Dokumente
 
-
 ### 8.2 Versionskontrolle
 
 #### Verantwortliche
@@ -434,7 +437,6 @@ Die folgenden Dokumente sind für dieses Dokument relevant:
 | Freigebende |            |                   |              |
 
 ***Tabelle:*** Verantworliche
-
 
 #### Historie
 
