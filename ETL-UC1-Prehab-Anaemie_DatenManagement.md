@@ -53,6 +53,7 @@ Dieses Dokument richtet sich an:
 
 ### 2.1 Zweck und Ziele
 
+
 > Folgenden Aspekte sollten adressiert werden:
 >
 > - Medizinischer Zweck
@@ -319,7 +320,6 @@ Die Bewertung der Dokumentation kann auch tabellarisch erfolgen:
 
 ### 6.1 Systemarchitektur
 
-
 > Hier die System-Architektur beschreiben. Das kann grafisch erfolgen auf Basis eines Architekturdiagramms,.
 >
 > Beispiele für Systeme und verwendete Produkte sind:
@@ -332,22 +332,17 @@ Die Bewertung der Dokumentation kann auch tabellarisch erfolgen:
 
 ### 6.2 Datenmodell
 
-
 > Hier das Datenmodell zu beschreiben in Form eines ERD und Verteilungsdiagramms.
 >
 > - ERD
 > - Verteilungsdiagramm
 > - APIs
 
-
-
 ### 6.3 Datenfluss
 
 Der Datenfluss im Use Case wird auf Basis der Prozesse und Ereignisse im Use Case dargestellt:
 
 > Beschreiben, wie der Datenfluss innerhalb des Use Cases anhand der Prozesse und klinischen Fragen
-
-
 
 ### 6.4 Zusammenfassende Bewertung
 
