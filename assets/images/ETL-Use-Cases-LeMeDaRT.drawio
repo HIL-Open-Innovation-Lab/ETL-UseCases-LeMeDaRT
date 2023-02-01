@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T07:33:35.548Z" agent="5.0 (Macintosh)" etag="qPC7nP0YQ4y45b4AUoAX" version="20.8.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-01T10:11:26.748Z" agent="5.0 (Macintosh)" etag="BhQrFs6OD2IA2QL_H9b-" version="20.8.11" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1426" dy="3356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1821" dy="3044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -417,6 +417,246 @@
         </mxCell>
         <mxCell id="xYtL9LTNpDdVsGrDmP8m-102" value="&lt;br&gt;&lt;div&gt;Noch keine Dokumentation möglich&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Mögliche Systeme&lt;br&gt;&lt;/div&gt;&lt;div&gt;Papier, Web, RedCap, Plan-Aufnahmen in SAP&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1170" y="-321.5" width="180" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-103" value="Visite 1&amp;nbsp; Ambulanz Klinik" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="830" width="830" height="200" as="geometry">
+            <mxRectangle x="50" y="-851" width="40" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-130" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xYtL9LTNpDdVsGrDmP8m-103" target="xYtL9LTNpDdVsGrDmP8m-133">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="141" y="96" as="sourcePoint" />
+            <mxPoint x="280.5" y="96" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xYtL9LTNpDdVsGrDmP8m-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404.5" y="95" as="sourcePoint" />
+            <mxPoint x="518" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-132" value="DB-1001" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-103">
+          <mxGeometry x="519" y="59" width="245" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-133" value="&lt;strong&gt;Cloud Service&lt;/strong&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Fragebogen + &lt;/div&gt;Patientendaten" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-103">
+          <mxGeometry x="293.5" y="41" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-134" value="Administrativ &#xa;+ &#xa;Assessment" style="text;spacingTop=-5;align=center" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-103">
+          <mxGeometry x="178" y="100" width="90" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-135" value="Patientdaten" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-103">
+          <mxGeometry x="56" y="70" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-104" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Aufnahmebogen der Klinik in EPOS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;P &amp;lt;-&amp;gt; Arzt Gespräch &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Zusätzliche Fragebögen in der Ambulanz&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="939" y="863.5" width="190" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-105" value="&lt;br&gt;&lt;div&gt;SAP Patientenaufnahme&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SAP Dokumentation&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Study Nurse gibt z.B. RedCap oder SAP Modul ,&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1172" y="852" width="180" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-106" value="Visite 2 - Training" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="1039" width="830" height="200" as="geometry">
+            <mxRectangle x="50" y="-851" width="40" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-136" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xYtL9LTNpDdVsGrDmP8m-106" target="xYtL9LTNpDdVsGrDmP8m-139">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="146" y="100" as="sourcePoint" />
+            <mxPoint x="223.5" y="-730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xYtL9LTNpDdVsGrDmP8m-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="409.5" y="99" as="sourcePoint" />
+            <mxPoint x="523" y="99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-138" value="DB-1001" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-106">
+          <mxGeometry x="524" y="63" width="245" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-139" value="&lt;strong&gt;Cloud Service&lt;/strong&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Fragebogen + &lt;/div&gt;Patientendaten" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-106">
+          <mxGeometry x="298.5" y="45" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-140" value="Administrativ &#xa;+ &#xa;Assessment" style="text;spacingTop=-5;align=center" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-106">
+          <mxGeometry x="183" y="104" width="90" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-141" value="Patientdaten" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-106">
+          <mxGeometry x="61" y="74" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-107" value="&lt;div&gt;Trainingsmonitoring und Training, z.B. mit Fitness Trackern&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Wöchentliche Anruf / Kontakt und Information (Weekly Visit)&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="942" y="1070" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-108" value="&lt;div&gt;PreHab APP Barcelona&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Anruf dokumentieren&lt;br&gt;&lt;/div&gt;&amp;nbsp;und offen wie hier dokumentiert" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="1062.5" width="180" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-109" value="Visite 3 - Prämed-Ambulanz (CH+AN)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="1250" width="830" height="290" as="geometry">
+            <mxRectangle x="50" y="-851" width="40" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-142" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xYtL9LTNpDdVsGrDmP8m-109" target="xYtL9LTNpDdVsGrDmP8m-145">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="146" y="92.5" as="sourcePoint" />
+            <mxPoint x="223.5" y="-737.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xYtL9LTNpDdVsGrDmP8m-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="409.5" y="91.5" as="sourcePoint" />
+            <mxPoint x="523" y="91.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-144" value="DB-1001" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-109">
+          <mxGeometry x="524" y="55.5" width="245" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-145" value="&lt;strong&gt;Cloud Service&lt;/strong&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Fragebogen + &lt;/div&gt;Patientendaten" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-109">
+          <mxGeometry x="298.5" y="37.5" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-146" value="Administrativ &#xa;+ &#xa;Assessment" style="text;spacingTop=-5;align=center" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-109">
+          <mxGeometry x="183" y="96.5" width="90" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-147" value="Patientdaten" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-109">
+          <mxGeometry x="61" y="66.5" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-110" value="Prämed Ambulanz" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="942" y="1281" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-111" value="&lt;div&gt;SAP&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="1260.5" width="180" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-112" value="Assessment wie in V1&lt;br&gt;&lt;div&gt;Zusätzliche Fragebögen in der Ambulanz&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="941" y="1409" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-113" value="&lt;div&gt;Offenz.B. RedCap oder SAP Modul&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Offen wie erfasst wird&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1179" y="1399.5" width="180" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-114" value="Stationärer Aufenthält" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="1560" width="830" height="290" as="geometry">
+            <mxRectangle x="50" y="-851" width="40" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-148" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xYtL9LTNpDdVsGrDmP8m-114" target="xYtL9LTNpDdVsGrDmP8m-151">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="148" y="79" as="sourcePoint" />
+            <mxPoint x="163.5" y="-2001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xYtL9LTNpDdVsGrDmP8m-114">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="411.5" y="78" as="sourcePoint" />
+            <mxPoint x="525" y="78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-150" value="DB-1001" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-114">
+          <mxGeometry x="526" y="42" width="245" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-151" value="&lt;strong&gt;Cloud Service&lt;/strong&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Fragebogen + &lt;/div&gt;Patientendaten" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-114">
+          <mxGeometry x="300.5" y="24" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-152" value="Administrativ &#xa;+ &#xa;Assessment" style="text;spacingTop=-5;align=center" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-114">
+          <mxGeometry x="185" y="83" width="90" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-153" value="Patientdaten" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-114">
+          <mxGeometry x="63" y="53" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-115" value="Stationärer Aufenthalt" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="942" y="1591" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-116" value="&lt;div&gt;SAP&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="1570.5" width="180" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-119" value="Stationärer Aufenthalt" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="939" y="1711.5" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-120" value="Anästhesie wird separat erfasst im AN Care System" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1179" y="1691" width="180" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-121" value="Entlassung" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="1870" width="830" height="332" as="geometry">
+            <mxRectangle x="50" y="-851" width="40" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-154" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xYtL9LTNpDdVsGrDmP8m-121" target="xYtL9LTNpDdVsGrDmP8m-157">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="153.5" y="91" as="sourcePoint" />
+            <mxPoint x="169" y="-1989" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xYtL9LTNpDdVsGrDmP8m-121">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="417" y="90" as="sourcePoint" />
+            <mxPoint x="530.5" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-156" value="DB-1001" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-121">
+          <mxGeometry x="531.5" y="54" width="245" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-157" value="&lt;strong&gt;Cloud Service&lt;/strong&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Fragebogen + &lt;/div&gt;Patientendaten" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-121">
+          <mxGeometry x="306" y="36" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-158" value="Administrativ &#xa;+ &#xa;Assessment" style="text;spacingTop=-5;align=center" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-121">
+          <mxGeometry x="190.5" y="95" width="90" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-159" value="Patientdaten" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-121">
+          <mxGeometry x="68.5" y="65" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-122" value="Stationärer Aufenthalt" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="942" y="1906" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-123" value="&lt;div&gt;SAP&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="1885.5" width="180" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-126" value="Nachsorge" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="2180" width="830" height="290" as="geometry">
+            <mxRectangle x="50" y="-851" width="40" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-160" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xYtL9LTNpDdVsGrDmP8m-126" target="xYtL9LTNpDdVsGrDmP8m-163">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="153.5" y="125" as="sourcePoint" />
+            <mxPoint x="169" y="-1955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xYtL9LTNpDdVsGrDmP8m-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="417" y="124" as="sourcePoint" />
+            <mxPoint x="530.5" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-162" value="DB-1001" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-126">
+          <mxGeometry x="531.5" y="88" width="245" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-163" value="&lt;strong&gt;Cloud Service&lt;/strong&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Fragebogen + &lt;/div&gt;Patientendaten" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-126">
+          <mxGeometry x="306" y="70" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-164" value="Administrativ &#xa;+ &#xa;Assessment" style="text;spacingTop=-5;align=center" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-126">
+          <mxGeometry x="190.5" y="129" width="90" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-165" value="Patientdaten" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="xYtL9LTNpDdVsGrDmP8m-126">
+          <mxGeometry x="68.5" y="99" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-127" value="&lt;div&gt;Nachsorge mit Praxen&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nachorge mit Nachsorgeverfolgung mit der PreHab App&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="942" y="2216" width="190" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-128" value="&lt;div&gt;PVS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;e.g., PreHab App but open&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="2220.5" width="180" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-129" value="&lt;div&gt;30 Tage Post-OP&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;6 &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;9 &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;12&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;60 Monate&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="2367" width="190" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-166" value="OFFEN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-167" value="&lt;div&gt;OFFEN &lt;br&gt;&lt;/div&gt;&lt;div&gt;welche Fragen und in welchem System&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1398" y="1129" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-168" value="&lt;div&gt;OFFEN &lt;br&gt;&lt;/div&gt;&lt;div&gt;wie fliessen die Daten der APP in die MEDMA&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1382" y="1079" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-169" value="&lt;div&gt;OFFEN &lt;br&gt;&lt;/div&gt;&lt;div&gt;wie fliessen die Daten der APP in die MEDMA&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="2240" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xYtL9LTNpDdVsGrDmP8m-170" value="&lt;div&gt;OFFEN &lt;br&gt;&lt;/div&gt;&lt;div&gt;Machine Learning Komponente&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Prediction in der Klinik&lt;/div&gt;&lt;div&gt;Prediction im DIZ&lt;/div&gt;&lt;div&gt;...&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1418" y="1181" width="190" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
