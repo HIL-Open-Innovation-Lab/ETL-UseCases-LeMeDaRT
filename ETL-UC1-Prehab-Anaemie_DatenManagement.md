@@ -16,15 +16,15 @@ Version: 1.0 | Datum: 1.0
 
 ***Tabelle:*** Dokument
 
-### 1.2 Produkt, das Algorithmus- bzw. Machine-Learning-Komponente enthält
+### 1.2 Produkt 
 
-| Parameter                                 | Wert                                                                   |
-| ----------------------------------------- | ---------------------------------------------------------------------- |
-| Produkt / Use Case (Name, Identifikation) | Use Case PreHab<br />Use Case Praevention<br />Use Case Atemwegsinfekt |
-| Version                                   |                                                                        |
-| Entwicklungsstand                         | Ausarbeitung Use Cases                                                 |
-|                                           |                                                                        |
-|                                           |                                                                        |
+| Parameter                                 | Wert                   |
+| ----------------------------------------- | ---------------------- |
+| Produkt / Use Case (Name, Identifikation) | Use Case PreHab        |
+| Version                                   |                        |
+| Entwicklungsstand                         | Ausarbeitung Use Cases |
+|                                           |                        |
+|                                           |                        |
 
 ***Tabelle:*** Produkt / Use Case
 
@@ -79,6 +79,8 @@ Dieses Dokument richtet sich an:
 > - besondere medizinische und ökonomische Problemstellungen
 > - ...
 
+
+
 ### 2.3 Einbettung der Daten und des Algorithmus in das Gesamtsystem
 
 > Hier z.B. mit Komponentendiagramm oder SysMLDiagramm beschreiben, wie der Algorithmus in das Gesamtsystem eingebettet ist.
@@ -89,9 +91,13 @@ Dieses Dokument richtet sich an:
 >
 > Kurze Beschreibung der Inputs und Outputs der Komponente einfügen. Eine genauere Beschreibung folgt im Kapitel 3.2)
 
+
+
 ### 2.4 Risikoanalyse
 
 > Hier die wichtigsten Risiken beschreiben, die sich ergeben würden, wenn die Algorithmus-/ML-Komponente nicht die spezifizierten Gütekriterien erfüllt.
+
+
 
 ## 3 Anforderungen - Daten Management
 
@@ -147,17 +153,17 @@ Dieses Dokument richtet sich an:
 
 > Nur die Personen und Rollen aufführen, die für die Entwicklung des Algorithmus bzw. das ML relevant sind. Für Nachweise auf entsprechende Aufzeichnungen verweisen (so vorhanden).
 >
-> | Organisation / Person | Aufgabe | Notwendige Anforderungen und Kompetenzen | Nachweis |
-> | --------------------- | ------- | ---------------------------------------- | -------- |
-> |                       |         |                                          |          |
-> |                       |         |                                          |          |
-> |                       |         |                                          |          |
-> |                       |         |                                          |          |
-> |                       |         |                                          |          |
-> |                       |         |                                          |          |
-> |                       |         |                                          |          |
-> |                       |         |                                          |          |
-> |                       |         |                                          |          |
+> | Organisation / Person | Aufgabe | Notwendige Anforderungen und Kompetenzen | Nachweis | Type |
+> | --------------------- | ------- | ---------------------------------------- | -------- | ---- |
+> |                       |         |                                          |          |      |
+> |                       |         |                                          |          |      |
+> |                       |         |                                          |          |      |
+> |                       |         |                                          |          |      |
+> |                       |         |                                          |          |      |
+> |                       |         |                                          |          |      |
+> |                       |         |                                          |          |      |
+> |                       |         |                                          |          |      |
+> |                       |         |                                          |          |      |
 >
 > ***Tabelle:*** Organisationen und Anforderungen
 
@@ -319,7 +325,6 @@ Die Bewertung der Dokumentation kann auch tabellarisch erfolgen:
 
 ### 6.1 Systemarchitektur
 
-
 > Hier die System-Architektur beschreiben. Das kann grafisch erfolgen auf Basis eines Architekturdiagramms,.
 >
 > Beispiele für Systeme und verwendete Produkte sind:
@@ -332,22 +337,17 @@ Die Bewertung der Dokumentation kann auch tabellarisch erfolgen:
 
 ### 6.2 Datenmodell
 
-
 > Hier das Datenmodell zu beschreiben in Form eines ERD und Verteilungsdiagramms.
 >
 > - ERD
 > - Verteilungsdiagramm
 > - APIs
 
-
-
 ### 6.3 Datenfluss
 
 Der Datenfluss im Use Case wird auf Basis der Prozesse und Ereignisse im Use Case dargestellt:
 
 > Beschreiben, wie der Datenfluss innerhalb des Use Cases anhand der Prozesse und klinischen Fragen
-
-
 
 ### 6.4 Zusammenfassende Bewertung
 
