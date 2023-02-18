@@ -1,0 +1,225 @@
+﻿Kurzbezeichnung - Langname (Organisation);Jahr der Festlegung;Sender;Empfänger;Datenformat;"Austauschprotokoll
+(Farbcodiert)";Umfang/Inhalt;Bewertung;
+"§295 SGB V
+- ambulante Abrechnung (KBV)";2000;ambulant;Kostenträger Forschung Register;xdt/kvdt;dateibasiert;"Patientenstamm und - versichertendaten, Scheindaten (Falldaten)
+Leistungsziffern
+erbrachte Leistung und damit implizit durchgeführte Therapieformen und Diagnostikverfahren, Intention von Therapien
+Diagnosen
+= 7";"Offenheit: gering Komplexität: gering Spezifität: gering Maschinenlesbarkeit: hoch
+Kommunikationswege: unidirektional";
+"§301 SGB V
+- stationäre Abrechnung (GKV/DKG)";1992;stationär;Kostenträger;"EDIFAC T (DIN EN 29
+735)";dateibasiert;"Patientenstammdaten, Fall-/Besuchsdaten, Versicherungsdaten, Leistungsziffern, Diagnosen, Prozeduren,
+= 6";"Offenheit: keine Schnittstellenkomplexität: gering Spezifität(für Onko): gering Maschinenlesbarkeit: mittel
+Terminologie-Infrastruktur: mittel (ICD/OPS) Modularität: mittel
+Kommunikationswege: unidirektional";
+"AWS -
+Archiv- und Wechsel- schnittstelle (KBV)";2019;ambulant;ambulant;xml/fhir;dateibasiert;"Patientenstammdaten, Fall-/Besuchsdaten, Versicherungsdaten, Leistungsziffern, Diagnosen, Prozeduren,
+TNM,
+Vitalparameter, Systemische Therapie, Strahlentherapie, Klinische Chemie, Pathologie, Radiologie/Bildgebung, Nachsorge, Todesmeldung/-
+Ursache/Leichenschauschein, Dokumente (unstrukturiert)
+=16";"Offenheit: mittel Komplexität: hoch Spezifität: gering Maschinenlesbarkeit: hoch
+Terminologie-Infrastruktur /Integration: mittel Modularität: hoch
+Kommunikationswege: unidirektional";
+"LDT -
+Labordatentr ansfer (KBV)";1992;ambulant Labor;ambulant Labor;xdt;dateibasiert;"Patientenstammdaten, Fall-/Besuchsdaten, Versicherungsdaten,
+Leistungsziffern / Prozeduren (Parameter-Idents),
+Klinische Chemie
+ggf. Pathologie/Biomarker
+= 6";"Offenheit: gering Spezifität: gering Maschinenlesbarkeit: hoch
+Kommunikationswege: bidirektional";
+"DOC
+-  Mamma-
+/Colonkarzin om (DOC-
+Holding)";2004;stationär;Register;xml/prop rietär;dateibasiert;"Patientenstammdaten, Diagnosen, Prozeduren,
+TNM,
+Nachsorge, Todesmeldung/-
+Ursache/Leichenschauschein,
+=6";"Offenheit: gering Komplexität: mittel Spezifität: hoch Maschinenlesbarkeit: hoch
+Terminologie-Infrastruktur /Integration: mittel Kommunikationswege: unidirektional";
+"eAU -
+elektronische Arbeitsunfäh igkeitsbesche inigung (KBV)";2021;ambuant;Kostenträger;xml/fhir;eMail;"Patientenstammdaten, Versicherungsdaten, Diagnosen, Systemische Therapie,
+=4";"Offenheit: mittel Komplexität: hoch Spezifität: gering Maschinenlesbarkeit: hoch
+Terminologie-Infrastruktur /Integration: mittel Modularität: hoch
+Kommunikationswege: unidirektional";
+"oBDS (zuvor ADT- GEKID) -
+onkologische r Basisdatensa tz (BMG, GEKID)";"2008
+2014
+2017
+2022";stationär ambulant;Register;xml/prop rietär;dateibasiert;"Patientenstamm, Diagnosen, Prozeduren /systemische
+/Strahlentherapien, TNM, Nachsorge, Todesmeldung Patientenstammdaten, Diagnosen,
+Prozeduren, TNM,
+Systemische Therapie, Strahlentherapie, Nachsorge, Todesmeldung/-
+Ursache/Leichenschauschein,
+=8";"Offenheit: mittel Komplexität: mittel-komplex Spezifität: hoch Maschinenlesbarkeit: hoch TODO: Tobias Hartz  Philipp Kachel
+Udo Altmann  bitte vervollständigen";
+eRezept (KBV);2021;ambulant;Kostenträger;xml/fhir;REST;"Patientenstammdaten, Versicherungsdaten, Diagnosen, Systemische Therapie,
+=4";"Offenheit: mittel Komplexität: hoch Spezifität: gering Maschinenlesbarkeit: hoch
+Terminologie-Infrastruktur /Integration: mittel Modularität: hoch
+Kommunikationswege: unidirektional";
+Oncobox (OnkoZert, DKrebsG);2010;stationär;Register;xml/prop rietär;dateibasiert;"Patientenstamm (anonym), Diagnosen, Prozeduren /systemische
+/Strahlentherapien, TNM, Nachsorge, Todesmeldung fallbasierte Selektion, wobei es verschiedene und inhaltlich bezogene Falldefinitionen gibt (Primärfall, Rezidiv, ...) Patientenstammdaten,
+Fall-/Besuchsdaten, Diagnosen, Prozeduren,
+TNM,
+Systemische Therapie, Strahlentherapie, Nachsorge, Todesmeldung/-
+Ursache/Leichenschauschein,
+=10";"Offenheit: gering Komplexität: mittel Spezifität: hoch Maschinenlesbarkeit: hoch
+Terminologie-Infrastruktur /Integration: mittel Modularität: mittel
+Kommunikationswege: unidirektional mit ACK";
+"ISiK -
+Informations systeme im Krankenhaus (gematik)";"2021
++ 2022";stationär;stationär;"xml+json
+/fhir";REST;"Patientenstammdaten, Fall-/Besuchsdaten, Versicherungsdaten, Diagnosen, Prozeduren,
+=5
+Vitalparameter, Systemische Therapie, Dokumente (unstrukturiert)
+=+3";"Offenheit: hoch Komplexität: hoch Spezifität (für Onko): gering Maschienenlesbarkeit: hoch
+Terminologie-Infrastruktur/Integration: hoch Modularität: hoch
+Kommunikationswege: bi-/multidirektional";
+"KDS -
+Kerndatensat z der Meditininfor matikinitiativ e (MI-I)";"2019+
+(Basis module
+)
+2022+
+(Erweit erungs module
+)";stationär;Forschung;"xml+json
+/fhir";REST;"Patientenstammdaten, Fall-/Besuchsdaten, Diagnosen, Prozeduren, Klinische Chemie, Nachsorge, Todesmeldung/-
+Ursache/Leichenschauschein,
+=8
+TNM,
+Pathologie, Radiologie/Bildgebung, Vitalparameter, Systemische Therapie
+=+5";"Offenheit: hoch Komplexität: hoch
+Spezifität (für Onko): mittel (zukünftig hoch mit Erweiterungsmodul Onkologie)
+Maschinenlesbarkeit: hoch
+Terminologie-Infrastruktur/Integration: hoch Modularität: mittel
+Kommunikationswege: bi-/multidirektional";
+"CDISC ODM-XML
+-
+Datenaustaus ch klinischer Studien (CDISC)";2014;Forschun g;Forschung;xml/odm;dateibasiert;"Patientenstammdaten, Diagnosen, Prozeduren,
+TNM,
+Systemische Therapie, Strahlentherapie, Nachsorge, Todesmeldung/-
+Ursache/Leichenschauschein,
+= 8";"Offenheit: mittel Schnittstellenkomplexität: mittel
+Spezifität: gering Maschinenlesbarkeit: hoch
+Terminologie-Infrastruktur /Integration: mittel - gut (SDTM codes) Modularität: gering
+Kommunikationswege: Dateibasiert";
+"KHE -
+Krankenhaus
+-Entlassbrief (KBV,DKG)";2023;stationär;ambulant stationär;xml/fhir;eMail;"Patientenstammdaten, Fall-/Besuchsdaten, Versicherungsdaten, Diagnosen, Prozeduren, Systemische Therapie,
+Dokumente (unstrukturiert)
+=7";"Offenheit: mittel Komplexität: hoch Spezifität: mittel Maschinenlesbarkeit: mittel
+Terminologie-Infrastruktur /Integration: mittel Modularität: hoch
+Kommunikationswege: unidirektional";
+"§137a SGB V -
+Qualitätssich erung (IQTIG)";2023;stationäre;Register;xml/prop rietär + access-db;REST;"Patientenstamm, Tumordiagnose, TNM, Modul_Prostata (Stanze, PSA, Gleason), systemische Therapie
+= 5";"Offenheit: gering Komplexität: mittel-komplex Spezifität: hoch Maschinenlesbarkeit: hoch TODO:
+Tobias Hartz Philipp Kachel
+bitte vervollständigen";
+"§137a SGB V -
+Qualitätssich erung  (BQS/ AQUA, IQTIQ)";2008;stationär;Register;xml/prop rietär + access-db;eMail;"Patientenstammdaten, Diagnosen, Prozeduren,
+TNM,
+Pathologie, Nachsorge
+= 6";"Offenheit: gering Komplexität: hoch Spezifität: hoch Maschinenlesbarkeit: hoch
+Terminologie-Infrastruktur /Integration: mittel Modularität: gering";
+"§92/§25a SGB V -
+Krebsfrüherk ennung (IQTIG)";2020;ambulanz Register;Register;xml/prop rietär + access-db;eMail;"Patientenstammdaten, Diagnosen,
+TNM,
+Pathologie,
+=4";"Offenheit: gering Komplexität: mittel-komplex Spezifität: hoch Maschinenlesbarkeit: hoch
+TODO:Tobias Hartz bitte vervollständigen";
+"§92/§25a SGB V -
+Krebsfrüherk ennung (IQTIG)";2023;Register;Register;xml/prop rietär + access-db;REST;"Patientenstamm, Primärtumor (Diagnose, Diagnosedatum, Top ographie, Morphologie, Grading), Datum OP, Residualstatus, TNM, Todesdatum- und ursache
+= 6";"Offenheit: gering Komplexität: mittel-komplex Spezifität: hoch Maschinenlesbarkeit: hoch
+TODO:Tobias Hartz Philipp Kachel bitte vervollständigen";
+"epidemiologi sche Krebsregister (Epidemiolig osche Landeskrebsr egister; GKR)";"1994 (GKR)
+2001 (RP)
+2006 (NRW)
+2007 (NI)
+2007
+(Hesse n)
+2008
+(Hamb urg)
+2009
+(BaWü
+)
+...und viele mehr...";ambulant stationär;Register;xml/prop rietär + csv + frl;eMail;"Patientenstammdaten, Diagnosen, Prozeduren,
+TNM,
+Systemische Therapie, Strahlentherapie, Nachsorge, Todesmeldung/-
+Ursache/Leichenschauschein,
+=8
+=+8
+=+8
+=+8
+... (insgesamt 11x)";"Offenheit: keine Komplexität: mittel Spezifität: hoch Maschinenlesbarkeit: hoch
+Terminologie-Infrastruktur /Integration: mittel Modularität: gering
+Kommunikationswege: unidirektional";
+"§21
+KHEntgG - Abrechnung stationär (InEK)";2002;stationär;Kostenträger;csv;dateibasiert;"Patientenstammdaten, Versicherungsdaten, Fall-
+/Besuchsdaten, Leistungsziffern, Diagnosen, Prozeduren, Nachsorge, Todesmeldung/- Ursache/Leichenschauschein
+= 8";"Offenheit: keine Schnittstellenkomplexität: gering Spezifität(für Onko): gering Maschinenlesbarkeit: mittel
+Terminologie-Infrastruktur: mittel (ICD/OPS) Modularität: mittel
+Kommunikationswege: unidirektional";
+"eVV -
+elektronische n- Vorgangsübe rmittlungs- Vereinbarun g (GKV, DKG)";2021;stationär;Medizinische r Dienst;xml/prop rietär;REST;"Patientenstammdaten, Fall-/Besuchsdaten,
+Dokumente (unstrukturiert)
+=3";"Offenheit: keine/gering
+Schnittstellenkomplexität (gering = flache Liste, mittel = hierarchische Struktur, hoch = multiple Entitäten mit komplexen Abhängigkeiten) Spezifität(für Onko): gering
+Maschinenlesbarkeit:  mittel
+Terminologie-Infrastruktur /Integration: mittel Modularität: gering
+Kommunikationswege: bi-/multidirektional";
+"DMP
+Brustkrebs (KBV)";2008;"ambulant
+stationär";Kostenträger;cda/sciph ox;dateibasiert;"Patientenstammdaten, Versicherungsdaten, Diagnosen, Prozeduren,
+TNM,
+Systemische Therapie, Strahlentherapie, Nachsorge
+= 8";"Offenheit: keine Komplexität: mittel Spezifität: hoch Maschinenlesbarkeit: hoch
+Terminologie-Infrastruktur /Integration: mittel Modularität: mittel
+Kommunikationswege: unidirektional";
+"RÜD -
+Registerüber greifender Datenaustaus ch - (IT-
+Netzwerk der Plattform § 65c)";2021;Register;Register;xml/prop rietär;REST;"Patientenstamm, Diagnosen, Prozeduren /systemische
+/Strahlentherapien, TNM, Nachsorge, Todesmeldung + Meldeamtsdaten (Wegzüge, Todesbescheinigungen)
+= 9
+(oBDS + Meldeamtsdaten)";"TODO:
+Tobias Hartz Philipp Kachel
+Udo Altmann  bitte vervollständigen";
+"HL7 V2 -
+allg. int. Standard (HL7
+International
+)";"1990 (V2.1) 1999 (V2.3.1
+) 2003
+(V2.5) 2009 (V2.7)";stationär;stationär;hl7 v2;dateibasiert tcp/ip;"Patientenstammdaten, Fall-/Besuchsdaten, Versicherungsdaten, Leistungsziffern, Diagnosen, Prozeduren, Klinische Chemie,
+=7";"Offenheit: hoch Komplexität: mittel Spezifität: gering Maschinenlesbarkeit: mittel
+Terminologie-Infrastruktur /Integration: mittel Modularität: hoch
+Kommunikationswege: bidirektional möglich, meist jedoch nur unidirektional mi ACK genutzt";
+"xDT -
+Behandlung-
+/Abrechnung sdatentransfe r (KBV)";1992;ambulant;ambulant;xdt;dateibasiert;"Patientenstammdaten Versichertendaten, Vitalparameter,
+Fall-/Besuchsdaten, Leistungsziffern, Diagnosen, Klinische Chemie, Prozeduren,
+Systemische Therapie, Dokumente (unstrukturiert)
+= 10";"Offenheit: mittel Spezifität: gering
+Maschinenlesbarkeit: mittel Kommunikationswege: bidirektional TODO: Claas Thiele bitte vervollständigen";
+"DICOM SR -
+Int. Standard zur Bilddatenko mmunikation (DICOM)";2000;ambulant stationär;ambulant stationär;dicom/sr;DICOM;"Patientenstammdaten, Diagnosen,  Prozeduren, Radiologie/Bildgebung,
+=4";"Offenheit: gering Schnittstellenkomplexität: hoch
+Spezifität: gering Maschinenlesbarkeit: hoch
+Terminologie-Infrastruktur /Integration: hoch Modularität: mittel
+Kommunikationswege: unidirektional mit ACK";
+"MRRT -
+Management of Radiology Report Templates (DRG / RSNA)";2012;stationär;stationär;html;dateibasiert;Radiologie;"Offenheit: gering Schnittstellenkomplexität: mittel
+Spezifität: gering Maschinenlesbarkeit: mittel
+Terminologie-Infrastruktur /Integration: mittel Modularität: gering
+Kommunikationswege: properitär";
+"IHE XDS -
+einrichtungs übergreifend er Dokumenten austausch (IHE Int.)";2000;stationär;stationär Patient;"ebXML, multipart
+-mime";SOAP;"Patientenstammdaten, Dokumente (unstrukturiert)
+=2";"Offenheit: mittel Schnittstellenkomplexität: hoch
+Spezifität: gering Maschinenlesbarkeit: mittel
+Terminologie-Infrastruktur /Integration: mittel Modularität: gering
+Kommunikationswege: bi-/multidirektional";
+"VOS -
+Verordnungs software- Schnittstelle (KBV)";2019;ambulant;ambulant;xml/fhir;REST;"Patientenstammdaten, Versicherungsdaten, Systemische Therapie
+=3";"Offenheit: mittel Komplexität: hoch Spezifität: gering Maschinenlesbarkeit: hoch
+Terminologie-Infrastruktur /Integration: mittel Modularität: hoch
+Kommunikationswege: bidirektional (Client/Server)";
+;;;;;;;;
+;;;;;;;;
