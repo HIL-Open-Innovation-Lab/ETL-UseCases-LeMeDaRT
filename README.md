@@ -6,6 +6,26 @@
 
 Website: https://www.nocodb.com
 
+
+
+
+
+## ML Engineering
+
+### Feature Engineering
+
+Tool Overview: https://analyticsindiamag.com/why-big-tech-firms-open-source-their-feature-stores/
+
+
+
+## Appendix - Gematik
+
+### Datenflow
+
+Use Case: https://www.ina.gematik.de/mitwirken/arbeitskreise/datenflow-in-einem-onkologischen-behandlungsverlauf
+
+
+
 ## Appendix - Alternative Data Tools
 
 ### Baserow
